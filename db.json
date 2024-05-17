@@ -127,6 +127,36 @@
       ],
       "status": "Em produção",
       "id": 1
+    },
+    {
+      "nome": "Fernando",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+          "Bacon"
+      ],
+      "status": "Em produção",
+      "id": 1
+    },
+    {
+      "nome": "Fernando",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+          "Bacon"
+      ],
+      "status": "Em produção",
+      "id": 1
+    },
+    {
+      "nome": "Fernando",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+          "Bacon"
+      ],
+      "status": "Em produção",
+      "id": 1
     }
   ]
 }
