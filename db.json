@@ -78,85 +78,118 @@
     }
   ],
   "burgers": [
-    {
-      "nome": "Fernando",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
+      {
+        "nome": "Fernando",
+        "carne": "Veggie burger",
+        "pao": "3 Queijos",
+        "opcionais": [
           "Bacon"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "Fernando",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-          "Bacon"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "Fernando",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-          "Bacon"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "Fernando",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-          "Bacon"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "Fernando",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-          "Bacon"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "Fernando",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-          "Bacon"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "Fernando",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-          "Bacon"
-      ],
-      "status": "Em produção",
-      "id": 1
-    },
-    {
-      "nome": "Fernando",
-      "carne": "Veggie burger",
-      "pao": "3 Queijos",
-      "opcionais": [
-          "Bacon"
-      ],
-      "status": "Em produção",
-      "id": 1
-    }
+        ],
+        "status": "Em produção",
+        "id": 1
+      },
+      {
+        "nome": "Mariana",
+        "carne": "Picanha",
+        "pao": "Italiano Branco",
+        "opcionais": [
+          "Cheddar",
+          "Tomate"
+        ],
+        "status": "Solicitado",
+        "id": 2
+      },
+      {
+        "nome": "Lucas",
+        "carne": "Alcatra",
+        "pao": "Integral",
+        "opcionais": [
+          "Cebola roxa",
+          "Pepino"
+        ],
+        "status": "Finalizado",
+        "id": 3
+      },
+      {
+        "nome": "Ana",
+        "carne": "Maminha",
+        "pao": "Parmesão e Orégano",
+        "opcionais": [
+          "Salame",
+          "Tomate"
+        ],
+        "status": "Em produção",
+        "id": 4
+      },
+      {
+        "nome": "Carlos",
+        "carne": "Picanha",
+        "pao": "Integral",
+        "opcionais": [
+          "Bacon",
+          "Cheddar"
+        ],
+        "status": "Finalizado",
+        "id": 5
+      },
+        {
+          "nome": "Juliana",
+          "carne": "Maminha",
+          "pao": "Parmesão e Orégano",
+          "opcionais": [
+            "Cebola roxa",
+            "Tomate"
+          ],
+          "status": "Solicitado",
+          "id": 6
+        },
+        {
+          "nome": "Rodrigo",
+          "carne": "Alcatra",
+          "pao": "3 Queijos",
+          "opcionais": [
+            "Salame",
+            "Pepino"
+          ],
+          "status": "Em produção",
+          "id": 7
+        },
+        {
+          "nome": "Carla",
+          "carne": "Veggie burger",
+          "pao": "Integral",
+          "opcionais": [
+            "Tomate",
+            "Cheddar"
+          ],
+          "status": "Finalizado",
+          "id": 8
+        },
+        {
+          "nome": "Thiago",
+          "carne": "Picanha",
+          "pao": "Italiano Branco",
+          "opcionais": [
+            "Bacon",
+            "Cebola roxa"
+          ],
+          "status": "Solicitado",
+          "id": 9
+        },
+        {
+          "nome": "Fernanda",
+          "carne": "Alcatra",
+          "pao": "Parmesão e Orégano",
+          "opcionais": [
+            "Cheddar",
+            "Salame"
+          ],
+          "status": "Em produção",
+          "id": 10
+        }
+      
+      
+    
+    
   ]
 }
