@@ -1,193 +1,4 @@
 {
-  "ingredientes": {
-    "paes": [
-      {
-        "id": 1,
-        "tipo": "Italiano Branco"
-      },
-      {
-        "id": 2,
-        "tipo": "3 Queijos"
-      },
-      {
-        "id": 3,
-        "tipo": "Parmesão e Orégano"
-      },
-      {
-        "id": 4,
-        "tipo": "Integral"
-      }
-    ],
-    "carnes": [
-      {
-        "id": 1,
-        "tipo": "Maminha"
-      },
-      {
-        "id": 2,
-        "tipo": "Alcatra"
-      },
-      {
-        "id": 3,
-        "tipo": "Picanha"
-      },
-      {
-        "id": 4,
-        "tipo": "Veggie burger"
-      }
-    ],
-    "opcionais": [
-      {
-        "id": 1,
-        "tipo": "Bacon"
-      },
-      {
-        "id": 2,
-        "tipo": "Cheddar"
-      },
-      {
-        "id": 3,
-        "tipo": "Salame"
-      },
-      {
-        "id": 4,
-        "tipo": "Tomate"
-      },
-      {
-        "id": 4,
-        "tipo": "Cebola roxa"
-      },
-      {
-        "id": 4,
-        "tipo": "Pepino"
-      }
-    ]
-  },
-  "status": [
-    {
-      "id": "1",
-      "tipo": "Solicitado"
-    },
-    {
-      "id": "2",
-      "tipo": "Em produção"
-    },
-    {
-      "id": "3",
-      "tipo": "Finalizado"
-    }
-  ],
-  "burgers": [
-      {
-        "nome": "Fernando",
-        "carne": "Veggie burger",
-        "pao": "3 Queijos",
-        "opcionais": [
-          "Bacon"
-        ],
-        "status": "Em produção",
-        "id": 1
-      },
-      {
-        "nome": "Mariana",
-        "carne": "Picanha",
-        "pao": "Italiano Branco",
-        "opcionais": [
-          "Cheddar",
-          "Tomate"
-        ],
-        "status": "Solicitado",
-        "id": 2
-      },
-      {
-        "nome": "Lucas",
-        "carne": "Alcatra",
-        "pao": "Integral",
-        "opcionais": [
-          "Cebola roxa",
-          "Pepino"
-        ],
-        "status": "Finalizado",
-        "id": 3
-      },
-      {
-        "nome": "Ana",
-        "carne": "Maminha",
-        "pao": "Parmesão e Orégano",
-        "opcionais": [
-          "Salame",
-          "Tomate"
-        ],
-        "status": "Em produção",
-        "id": 4
-      },
-      {
-        "nome": "Carlos",
-        "carne": "Picanha",
-        "pao": "Integral",
-        "opcionais": [
-          "Bacon",
-          "Cheddar"
-        ],
-        "status": "Finalizado",
-        "id": 5
-      },
-        {
-          "nome": "Juliana",
-          "carne": "Maminha",
-          "pao": "Parmesão e Orégano",
-          "opcionais": [
-            "Cebola roxa",
-            "Tomate"
-          ],
-          "status": "Solicitado",
-          "id": 6
-        },
-        {
-          "nome": "Rodrigo",
-          "carne": "Alcatra",
-          "pao": "3 Queijos",
-          "opcionais": [
-            "Salame",
-            "Pepino"
-          ],
-          "status": "Em produção",
-          "id": 7
-        },
-        {
-          "nome": "Carla",
-          "carne": "Veggie burger",
-          "pao": "Integral",
-          "opcionais": [
-            "Tomate",
-            "Cheddar"
-          ],
-          "status": "Finalizado",
-          "id": 8
-        },
-        {
-          "nome": "Thiago",
-          "carne": "Picanha",
-          "pao": "Italiano Branco",
-          "opcionais": [
-            "Bacon",
-            "Cebola roxa"
-          ],
-          "status": "Solicitado",
-          "id": 9
-        },
-        {
-          "nome": "Fernanda",
-          "carne": "Alcatra",
-          "pao": "Parmesão e Orégano",
-          "opcionais": [
-            "Cheddar",
-            "Salame"
-          ],
-          "status": "Em produção",
-          "id": 10
-        }
-  ],
   "pizzaPadrao":{
     "pizzaSizeOptions": [
       { "id": 1, "name": "Pequena" },
@@ -243,5 +54,151 @@
       { "id": 4, "name": "Sem Borda" }
     ]
   },
-  "pizzasSolicitadas":[]
+  "pizzasSolicitadas":[
+    {
+      "nome": "Paulo Francisco",
+      "tamanho": "Pequena",
+      "massa": "Tradicional",
+      "molho": "Molho de Tomate",
+      "queijo": "Mussarela",
+      "borda": "Cheddar",
+      "toppings": [
+        "Pepperoni"
+      ],
+      "extras": [
+        "Extra Queijo",
+        "Extra Molho",
+        "Orégano"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Ana Oliveira",
+      "tamanho": "Média",
+      "massa": "Integral",
+      "molho": "Molho Branco",
+      "queijo": "Parmesão",
+      "borda": "Catupiry",
+      "toppings": [
+        "Frango",
+        "Milho"
+      ],
+      "extras": [
+        "Orégano",
+        "Pimenta Calabresa"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    },
+    {
+      "nome": "Carlos Silva",
+      "tamanho": "Grande",
+      "massa": "Fina",
+      "molho": "Molho Barbecue",
+      "queijo": "Cheddar",
+      "borda": "Sem Borda",
+      "toppings": [
+        "Bacon",
+        "Cebola"
+      ],
+      "extras": [
+        "Extra Queijo"
+      ],
+      "status": "Solicitado",
+      "id": 3
+    },
+    {
+      "nome": "Mariana Souza",
+      "tamanho": "Família",
+      "massa": "Sem Glúten",
+      "molho": "Molho Pesto",
+      "queijo": "Gorgonzola",
+      "borda": "Chocolate",
+      "toppings": [
+        "Tomate",
+        "Azeitonas",
+        "Manjericão"
+      ],
+      "extras": [
+        "Orégano"
+      ],
+      "status": "Solicitado",
+      "id": 4
+    },
+    {
+      "nome": "José Santos",
+      "tamanho": "Pequena",
+      "massa": "Tradicional",
+      "molho": "Molho de Tomate",
+      "queijo": "Mussarela",
+      "borda": "Catupiry",
+      "toppings": [
+        "Calabresa",
+        "Pimentão"
+      ],
+      "extras": [
+        "Extra Molho"
+      ],
+      "status": "Solicitado",
+      "id": 5
+    },
+    {
+      "nome": "Fernanda Lima",
+      "tamanho": "Média",
+      "massa": "Integral",
+      "molho": "Molho Branco",
+      "queijo": "Sem Queijo (opção vegana)",
+      "borda": "Sem Borda",
+      "toppings": [
+        "Rúcula",
+        "Champignon",
+        "Alho"
+      ],
+      "extras": [
+        "Orégano",
+        "Pimenta Calabresa"
+      ],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "nome": "Ricardo Gonçalves",
+      "tamanho": "Grande",
+      "massa": "Fina",
+      "molho": "Molho de Tomate",
+      "queijo": "Parmesão",
+      "borda": "Cheddar",
+      "toppings": [
+        "Presunto",
+        "Tomate"
+      ],
+      "extras": [
+        "Extra Queijo",
+        "Orégano"
+      ],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "nome": "Laura Ferreira",
+      "tamanho": "Família",
+      "massa": "Sem Glúten",
+      "molho": "Molho Barbecue",
+      "queijo": "Cheddar",
+      "borda": "Catupiry",
+      "toppings": [
+        "Frango",
+        "Milho",
+        "Cebola"
+      ],
+      "extras": [
+        "Extra Molho",
+        "Orégano"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    }
+  ]
+  
 }
