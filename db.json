@@ -187,9 +187,58 @@
           "status": "Em produção",
           "id": 10
         }
-      
-      
-    
-    
-  ]
+  ],
+    "pizzaSizeOptions": [
+      { "id": 1, "name": "Pequena" },
+      { "id": 2, "name": "Média" },
+      { "id": 3, "name": "Grande" },
+      { "id": 4, "name": "Família" }
+    ],
+    "pizzaCrustOptions": [
+      { "id": 1, "name": "Tradicional" },
+      { "id": 2, "name": "Fina" },
+      { "id": 3, "name": "Integral" },
+      { "id": 4, "name": "Sem Glúten" }
+    ],
+    "pizzaSauceOptions": [
+      { "id": 1, "name": "Molho de Tomate" },
+      { "id": 2, "name": "Molho Branco" },
+      { "id": 3, "name": "Molho Pesto" },
+      { "id": 4, "name": "Molho Barbecue" }
+    ],
+    "pizzaCheeseOptions": [
+      { "id": 1, "name": "Mussarela" },
+      { "id": 2, "name": "Parmesão" },
+      { "id": 3, "name": "Cheddar" },
+      { "id": 4, "name": "Gorgonzola" },
+      { "id": 5, "name": "Sem Queijo (opção vegana)" }
+    ],
+    "pizzaIngredientsOptions": [
+      { "id": 1, "name": "Pepperoni" },
+      { "id": 2, "name": "Presunto" },
+      { "id": 3, "name": "Frango" },
+      { "id": 4, "name": "Bacon" },
+      { "id": 5, "name": "Calabresa" },
+      { "id": 6, "name": "Tomate" },
+      { "id": 7, "name": "Cebola" },
+      { "id": 8, "name": "Pimentão" },
+      { "id": 9, "name": "Azeitonas" },
+      { "id": 10, "name": "Champignon" },
+      { "id": 11, "name": "Milho" },
+      { "id": 12, "name": "Rúcula" },
+      { "id": 13, "name": "Manjericão" },
+      { "id": 14, "name": "Alho" }
+    ],
+    "pizzaExtrasOptions": [
+      { "id": 1, "name": "Extra Queijo" },
+      { "id": 2, "name": "Extra Molho" },
+      { "id": 3, "name": "Orégano" },
+      { "id": 4, "name": "Pimenta Calabresa" }
+    ],
+    "pizzaCrustFillingOptions": [
+      { "id": 1, "name": "Catupiry" },
+      { "id": 2, "name": "Cheddar" },
+      { "id": 3, "name": "Chocolate" },
+      { "id": 4, "name": "Sem Borda" }
+    ]
 }
