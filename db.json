@@ -188,6 +188,7 @@
           "id": 10
         }
   ],
+  "pizzaPadrao":{
     "pizzaSizeOptions": [
       { "id": 1, "name": "Pequena" },
       { "id": 2, "name": "Média" },
@@ -240,6 +241,7 @@
       { "id": 2, "name": "Cheddar" },
       { "id": 3, "name": "Chocolate" },
       { "id": 4, "name": "Sem Borda" }
-    ],
-    "pizzas":[]
+    ]
+  },
+  "pizzasSolicitadas":[]
 }
