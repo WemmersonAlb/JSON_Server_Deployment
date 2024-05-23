@@ -213,6 +213,70 @@
       "status": "Solicitado",
       "id": 8
     }
+  ],
+  "allTodoList":[
+    {
+      "id":"1",
+      "title":"Matemática",
+      "allItems":[
+        {
+          "id":"1",
+          "text":"Ver vídeo aulas",
+          "state":"true"
+        },
+        {
+          "id":"2",
+          "text":"Fazer resumo",
+          "state":"true"
+        },
+        {
+          "id":"3",
+          "text":"Fazer exercícios",
+          "state":"false"
+        },
+        {
+          "id":"4",
+          "text":"Preparar pesquisas para o seminário",
+          "state":"false"
+        },
+        {
+          "id":"5",
+          "text":"Tirar folga",
+          "state":"false"
+        }
+      ]
+    },
+    {
+      "id":"2",
+      "title":"Português",
+      "allItems":[
+        {
+          "id":"1",
+          "text":"Ver vídeo aulas",
+          "state":"false"
+        },
+        {
+          "id":"2",
+          "text":"Fazer resumo",
+          "state":"false"
+        },
+        {
+          "id":"3",
+          "text":"Fazer exercícios",
+          "state":"false"
+        },
+        {
+          "id":"4",
+          "text":"Preparar pesquisas para o seminário",
+          "state":"false"
+        },
+        {
+          "id":"5",
+          "text":"Tirar folga",
+          "state":"false"
+        }
+      ]
+    }
   ]
   
 }
